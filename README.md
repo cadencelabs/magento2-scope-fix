@@ -8,6 +8,6 @@ OSL 3.0
 
 ### More Info
 
-For user guide & full details see: 
+For user guide & full details see: https://www.cadence-labs.com/2018/03/magento-2-use-default-value-store-view-scope-fix/
 
 
