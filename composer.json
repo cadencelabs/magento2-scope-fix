@@ -5,5 +5,5 @@
     "psr-4": { "Cadence\\ScopeFix\\": "" },
     "files": [ "registration.php" ]
   },
-  "type": "magento2-module",
+  "type": "magento2-module"
 }
