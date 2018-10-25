@@ -1,0 +1,9 @@
+{
+  "name": "cadencelabs/magento2-scope-fix",
+  "description": "This extension adds support to correct an issue where the Use Default Value checkboxes become unchecked on products when editing at a store-view level.",
+  "autoload": {
+    "psr-4": { "Cadence\\ScopeFix\\": "" },
+    "files": [ "registration.php" ]
+  },
+  "type": "magento2-module",
+}
