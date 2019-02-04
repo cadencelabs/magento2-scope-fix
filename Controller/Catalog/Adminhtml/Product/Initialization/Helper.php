@@ -229,7 +229,7 @@ class Helper extends \Magento\Catalog\Controller\Adminhtml\Product\Initializatio
 
                 $forceDefault = false;
 
-                if ($attribute->getBackendType() != 'static' && $rootProduct->getData($productKey) == $productValue) {
+                if ($attribute->getBackendType() != 'static' && $attribute->getScope() != \Magento\Catalog\Api\Data\EavAttributeInterface::SCOPE_GLOBAL_TEXT && $rootProduct->getData($productKey) == $productValue) {
                     $tableName = $attribute->getBackendTable();
 
                     $sql = "SELECT COUNT(*) FROM {$tableName} WHERE entity_id = :entity_id AND attribute_id = :attribute_id and store_id = :store_id";
